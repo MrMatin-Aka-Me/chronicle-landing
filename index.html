@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Хроника — вся твоя жизнь на одной линии</title>
+<meta name="description" content="Фото, видео, голос и заметки по годам, местам и людям. Сегодня, чтобы вспоминать. Потом, чтобы передать.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Хроника — вся твоя жизнь на одной линии">
+<meta property="og:description" content="Фото, видео, голос и заметки по годам, местам и людям. Сегодня, чтобы вспоминать. Потом, чтобы передать.">
+<meta property="og:locale" content="ru_RU">
+<meta name="theme-color" content="#EEF1F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F141B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/manrope-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/unbounded-cyrillic-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Fonts are self-hosted: no requests to third-party services. */
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/manrope-cyrillic-400-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/manrope-latin-400-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/manrope-cyrillic-500-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/manrope-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/manrope-cyrillic-600-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/manrope-latin-600-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/manrope-cyrillic-700-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/manrope-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Unbounded";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/unbounded-cyrillic-500-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Unbounded";font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/unbounded-latin-500-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Unbounded";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/unbounded-cyrillic-700-normal.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Unbounded";font-style:normal;font-weight:700;font-display:swap;src:url(assets/fonts/unbounded-latin-700-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Layout: one 1120px column; hero = text + living life-graph; then ways-in, views, search, legacy, privacy, FAQ, repeat CTA. */
+:root{
+  --bg:#EEF1F4; --surface:#FFFFFF; --ink:#16202B; --muted:#5B6878; --faint:#A9B4C0; --line:#D3DAE2;
+  --accent:#2B54D6; --accent-ink:#FFFFFF; --soft:#DDE5FA;
+  --b1:#C2417A; --b2:#16907F; --danger:#C23434; --ok:#16907F;
+  --display:"Unbounded", "Manrope", system-ui, sans-serif;
+  --body:"Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F141B; --surface:#18202A; --ink:#E6EBF1; --muted:#94A2B2; --faint:#4A5868; --line:#2A3542;
+  --accent:#7D9BFF; --accent-ink:#0F141B; --soft:#223058; --b1:#F07AAE; --b2:#4CC9B4; --danger:#FF7A7A; --ok:#4CC9B4; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F141B; --surface:#18202A; --ink:#E6EBF1; --muted:#94A2B2; --faint:#4A5868; --line:#2A3542;
+  --accent:#7D9BFF; --accent-ink:#0F141B; --soft:#223058; --b1:#F07AAE; --b2:#4CC9B4; --danger:#FF7A7A; --ok:#4CC9B4; color-scheme:dark}
+
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:20px}
+h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.12;text-wrap:balance;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(26px,3.6vw,40px)}
+h3{font-size:18px;font-weight:500;line-height:1.3}
+p{margin:0}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.muted{color:var(--muted)}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+section{padding-block:72px}
+.sec-head{display:grid;gap:14px;max-width:640px;margin-bottom:36px}
+.sec-head p{color:var(--muted);font-size:18px}
+
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid transparent}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:19px;color:var(--ink);text-decoration:none}
+.logo svg{flex:none}
+nav.links{display:flex;align-items:center;gap:22px;font-weight:600;font-size:15px}
+nav.links a{color:var(--muted);text-decoration:none}
+nav.links a:hover{color:var(--ink)}
+nav.links a.btn-primary,nav.links a.btn-primary:hover{color:var(--accent-ink)}
+@media (max-width:400px){.tab{padding:8px 10px;font-size:14px}.tabs{gap:2px}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 15px/1 var(--body);border-radius:12px;padding:13px 20px;border:1px solid transparent;cursor:pointer;text-decoration:none;white-space:nowrap}
+.btn-primary{background:var(--accent);color:var(--accent-ink)}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn-sm{padding:10px 14px;font-size:14px}
+@media (max-width:760px){nav.links .hide-sm{display:none}}
+
+/* hero */
+.hero{padding-block:48px 40px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}
+.hero-text{display:grid;gap:22px;min-width:0}
+.hero h1{font-size:clamp(34px,5.4vw,62px)}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.lead{font-size:clamp(17px,1.7vw,20px);color:var(--muted);max-width:34em}
+.graph-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px 14px 10px;min-width:0;box-shadow:0 30px 60px -40px color-mix(in srgb,var(--accent) 45%,transparent)}
+.graph-card svg{width:100%;height:auto;display:block}
+.graph-cap{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--muted);padding:6px 6px 4px;flex-wrap:wrap}
+.g-text{font-family:var(--body);fill:var(--ink);font-size:14px;font-weight:600}
+.g-year{font-family:var(--body);fill:var(--muted);font-size:11.5px;font-weight:500;font-variant-numeric:tabular-nums}
+.g-branch{font-family:var(--body);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.55}80%,100%{transform:scale(3.2);opacity:0}}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none;opacity:0}}
+@media (max-width:860px){.hero .wrap{grid-template-columns:minmax(0,1fr)}.graph-card{max-width:520px}}
+
+/* "what for" chooser */
+.choose{display:grid;gap:12px;max-width:540px}
+.choose-label{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:5px;background:var(--surface);border:1px solid var(--line);border-radius:14px;width:fit-content;max-width:100%}
+.tab{all:unset;box-sizing:border-box;cursor:pointer;padding:9px 14px;border-radius:10px;font-weight:700;font-size:15px;color:var(--muted)}
+.tab:hover{color:var(--ink)}
+.tab:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink)}
+.feed{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.feed .ex{background:var(--surface);border:1px solid var(--line)}
+.panel{display:grid;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.panel p{color:var(--ink);font-size:16px}
+.ex{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:center;background:var(--bg);border-radius:12px;padding:10px 12px}
+.ex > div:last-child{min-width:0}
+.ex .dot{width:44px;height:44px;border-radius:11px;display:grid;place-items:center;color:#fff}
+.ex b{display:block;font-size:14.5px}
+.ex span{font-size:12.5px;color:var(--muted)}
+.tg{display:inline-flex;align-items:center;gap:10px;justify-self:start;white-space:normal;text-align:left;line-height:1.3}
+.hide-xs{}
+@media (max-width:480px){.hide-xs{display:none}nav.links{gap:14px}}
+.cta-note{font-size:13px;color:var(--muted)}
+.final-links{display:grid;gap:10px}
+.final-links .btn{justify-content:space-between;white-space:normal;text-align:left;gap:12px;background:var(--accent-ink);color:var(--accent);width:100%}
+.final-links .btn span{opacity:.75;font-weight:500}
+
+/* scenes: three short stories, one per reason */
+.scenes{display:grid;gap:64px}
+.scene{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:40px;align-items:center}
+.scene:nth-child(even) .scene-art{order:-1}
+.scene-text{display:grid;gap:14px;max-width:560px}
+.scene-who{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.scene h3{font-family:var(--display);font-weight:700;font-size:clamp(24px,3.2vw,36px);line-height:1.15;text-wrap:balance}
+.scene p{color:var(--muted);font-size:17.5px}
+.scene .how{display:grid;grid-template-columns:22px 1fr;gap:10px;color:var(--ink);font-size:16px;padding-top:6px}
+.scene .how svg{margin-top:3px}
+.scene-art{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:22px;display:grid;gap:12px;min-width:0}
+.gal{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
+.gal i{aspect-ratio:1;border-radius:4px;background:color-mix(in srgb,var(--line) 60%,var(--surface))}
+.gal i:nth-child(3n){background:var(--line)}
+.gal i:nth-child(7n){background:var(--soft)}
+.gal-count{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--muted)}
+.gal-count b{font-family:var(--display);font-size:28px;color:var(--ink);font-variant-numeric:tabular-nums}
+.found{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:center;padding:10px;border-radius:12px;background:var(--soft)}
+.found .thumb{width:44px;height:44px}
+.found b{display:block;font-size:14.5px}
+.found span{font-size:12.5px;color:var(--muted)}
+.player{display:grid;grid-template-columns:40px 1fr auto;gap:12px;align-items:center;padding:12px;border-radius:14px;background:var(--bg)}
+.player .play{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:#fff}
+.player .wave{color:var(--muted);height:26px}
+.player small{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.transcript{font-size:15px;line-height:1.55;padding:2px 4px}
+.transcript span{color:var(--muted);font-size:12.5px;display:block;margin-top:6px}
+@media (max-width:860px){.scene{grid-template-columns:minmax(0,1fr);gap:22px}.scene:nth-child(even) .scene-art{order:0}.scenes{gap:56px}}
+/* ways in */
+.ways{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.way{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:12px;align-content:start;min-width:0}
+.way .ic{width:40px;height:40px;border-radius:11px;background:var(--soft);color:var(--accent);display:grid;place-items:center}
+.way p{color:var(--muted);font-size:15px}
+@media (max-width:860px){.ways{grid-template-columns:1fr}}
+
+/* telegram mock */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.split > *{min-width:0}
+@media (max-width:860px){.split{grid-template-columns:1fr}}
+.chat{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;display:grid;gap:10px;max-width:440px}
+.chat-head{display:flex;align-items:center;gap:10px;padding-bottom:10px;border-bottom:1px solid var(--line);font-weight:700;font-size:14px}
+.chat-head i{width:30px;height:30px;border-radius:50%;background:var(--accent);display:grid;place-items:center;color:var(--accent-ink);font-style:normal;font-family:var(--display);font-size:13px}
+.chat-head small{display:block;font-weight:500;color:var(--muted);font-size:12px}
+.msg{max-width:84%;padding:10px 13px;border-radius:16px;font-size:14.5px;line-height:1.45}
+.msg.me{justify-self:end;background:var(--accent);color:var(--accent-ink);border-bottom-right-radius:5px}
+.msg.bot{justify-self:start;background:var(--bg);border-bottom-left-radius:5px}
+.voice{display:flex;align-items:center;gap:10px}
+.voice svg{flex:none}
+.wave{display:flex;align-items:center;gap:2px;height:20px}
+.wave span{width:3px;border-radius:2px;background:currentColor;opacity:.85}
+.msg small{display:block;opacity:.75;font-size:12px;margin-top:4px}
+.msg .saved{display:grid;gap:2px;margin-top:6px;padding:8px 10px;background:var(--surface);border-radius:10px;border-left:3px solid var(--accent)}
+.msg .saved span{font-size:12px;color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12.5px;font-weight:600;border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 11px;color:var(--ink)}
+.points{display:grid;gap:18px;margin-top:26px}
+.points div{display:grid;grid-template-columns:22px 1fr;gap:12px}
+.points svg{margin-top:3px;color:var(--accent)}
+.points b{display:block}
+.points span{color:var(--muted);font-size:15px}
+
+/* views */
+.views{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.view{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:grid;min-width:0}
+.view .pic{height:130px;background:var(--bg);border-bottom:1px solid var(--line);display:grid;place-items:center;padding:12px}
+.view .pic svg{width:100%;height:100%}
+.view .txt{padding:16px 18px 18px;display:grid;gap:6px}
+.view .txt p{color:var(--muted);font-size:14.5px}
+@media (max-width:960px){.views{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.views{grid-template-columns:1fr}}
+
+/* search mock */
+.search{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;display:grid;gap:14px}
+.sbox{display:flex;align-items:center;gap:10px;border:1.5px solid var(--accent);border-radius:12px;padding:12px 14px;font-size:15.5px}
+.sbox svg{flex:none;color:var(--accent)}
+.sbox .caret{display:inline-block;width:2px;height:1.1em;background:var(--accent);vertical-align:-3px;margin-left:1px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.res{display:grid;gap:8px}
+.res-item{display:grid;grid-template-columns:52px 1fr;gap:12px;align-items:center;padding:8px;border-radius:12px;background:var(--bg)}
+.thumb{width:52px;height:52px;border-radius:10px}
+.res-item b{display:block;font-size:14.5px}
+.res-item span{font-size:12.5px;color:var(--muted)}
+.why{font-size:12px;color:var(--accent);font-weight:600}
+
+/* legacy */
+.legacy{background:var(--surface);border-block:1px solid var(--line)}
+.leg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.leg{display:grid;gap:10px;align-content:start}
+.leg p{color:var(--muted);font-size:15px}
+.quote{font-family:var(--display);font-weight:500;font-size:clamp(20px,2.6vw,28px);line-height:1.3;max-width:28em;text-wrap:balance;margin-bottom:44px}
+.quote span{color:var(--accent)}
+@media (max-width:860px){.leg-grid{grid-template-columns:1fr}}
+.book{width:68px;height:88px;border-radius:4px 8px 8px 4px;background:var(--accent);position:relative;box-shadow:inset 6px 0 0 color-mix(in srgb,#000 18%,transparent)}
+.book::after{content:"";position:absolute;left:16px;right:10px;top:20px;height:2px;background:var(--accent-ink);opacity:.7;box-shadow:0 8px 0 var(--accent-ink)}
+.qcard{background:var(--bg);border-radius:12px;padding:12px 14px;font-size:14px;max-width:300px}
+.qcard small{display:block;color:var(--muted);font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.files{display:flex;gap:6px;flex-wrap:wrap}
+.files span{font:600 12px/1 var(--body);padding:7px 9px;border-radius:8px;background:var(--bg);color:var(--muted)}
+
+/* privacy */
+.priv{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.pv{display:grid;grid-template-columns:36px 1fr;gap:14px;padding:20px;border-radius:var(--r);background:var(--surface);border:1px solid var(--line);min-width:0}
+.pv svg{color:var(--accent)}
+.pv b{display:block;margin-bottom:4px}
+.pv span{color:var(--muted);font-size:15px}
+@media (max-width:760px){.priv{grid-template-columns:1fr}}
+
+/* faq */
+.faq{display:grid;gap:10px;max-width:780px}
+.q{border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
+.q button{all:unset;box-sizing:border-box;width:100%;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:18px 20px;font-weight:700;cursor:pointer}
+.q button:focus-visible{outline:2px solid var(--accent);border-radius:var(--r)}
+.q button svg{flex:none;transition:transform .2s}
+.q button[aria-expanded="true"] svg{transform:rotate(45deg)}
+.q .a{padding:0 20px 18px;color:var(--muted)}
+
+/* final cta */
+.final{text-align:left}
+.final .box{background:var(--accent);color:var(--accent-ink);border-radius:28px;padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+.final .box > *{min-width:0}
+.final h2{color:inherit}
+.final p.sub{opacity:.85;margin-top:12px;font-size:17px}
+@media (max-width:860px){.final .box{grid-template-columns:minmax(0,1fr)}}
+
+/* footer */
+footer{padding-block:40px 56px;color:var(--muted);font-size:14px}
+footer .wrap{display:grid;gap:18px}
+.foot-row{display:flex;justify-content:space-between;gap:16px 28px;flex-wrap:wrap}
+.foot-links{display:flex;gap:10px 22px;flex-wrap:wrap}
+.foot-links button,.foot-links a{font:inherit;background:none;border:0;padding:0;color:var(--muted);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="Хроника, наверх">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 22 C10 22 10 6 16 6 S 22 14 24 14" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"/><circle cx="4" cy="22" r="3" fill="var(--accent)"/><circle cx="16" cy="6" r="3" fill="var(--accent)"/><circle cx="24" cy="14" r="3" fill="var(--b1)"/></svg>
+      Хроника
+    </a>
+    <nav class="links" aria-label="Разделы">
+      <a class="hide-sm" href="#how">Как это работает</a>
+      <a class="hide-sm" href="#privacy">Приватность</a>
+      <a href="#" data-link="app" hidden>Войти</a>
+      <a class="btn btn-primary btn-sm" href="#choose">Следить<span class="hide-xs"> за запуском</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-text">
+        <span class="eyebrow">Скоро запуск · 2026</span>
+        <h1>Вся твоя жизнь <em>на одной линии</em></h1>
+        <p class="lead">Фото, видео, голос и заметки раскладываются по годам, местам и людям. Сегодня, чтобы вспоминать. Потом, чтобы передать.</p>
+        <div class="choose" id="choose">
+          <ul class="feed" aria-label="Моменты из хроники">
+            <li class="ex"><div class="dot" style="background:var(--b2)" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20 9 9l4 6 3-4 5 9z"/></svg></div><div><b>В этот день, 2021</b><span>Алтай · первый перевал · 14 фото</span></div></li>
+            <li class="ex"><div class="dot" style="background:var(--b1)" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="7" r="3"/><path d="M6 21v-2a6 6 0 0 1 12 0v2"/></svg></div><div><b>Первые шаги Лизы</b><span>2024 · 12 июня · видео 0:12</span></div></li>
+            <li class="ex"><div class="dot" style="background:var(--accent)" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><div><b>Мама о лете 1978 года</b><span>голосовое 4:12 · «Летом нас отправляли к бабушке…»</span></div></li>
+          </ul>
+          <a class="btn btn-primary tg" href="https://t.me/" target="_blank" rel="noopener" data-link="hero"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.5 4.1 2.9 11.3c-1.3.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.4l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.7c.3-1.3-.5-1.9-1.5-1.5zM8.9 14l9.6-6.1c.5-.3.9-.1.5.2l-8 7.3-.3 3.4z"/></svg><span>Следить за запуском в Telegram</span></a>
+          <span class="cta-note">В канале показываем, как строится Хроника, и первыми зовём в бету.</span>
+        </div>
+      </div>
+
+      <figure class="graph-card" aria-label="Пример хроники: главная линия жизни и две ветки">
+        <svg viewBox="0 0 400 430" role="img" aria-labelledby="g-title">
+          <title id="g-title">Линия жизни с 2009 по 2026 год, ветки «Горы» и «Своё дело»</title>
+          <!-- year ticks -->
+          <g stroke="var(--line)" stroke-width="1">
+            <line x1="20" y1="400" x2="390" y2="400" stroke-dasharray="2 5"/>
+            <line x1="20" y1="295" x2="390" y2="295" stroke-dasharray="2 5"/>
+            <line x1="20" y1="190" x2="390" y2="190" stroke-dasharray="2 5"/>
+            <line x1="20" y1="106" x2="390" y2="106" stroke-dasharray="2 5"/>
+          </g>
+          <!-- branch: mountains -->
+          <path d="M118 274 C118 254 240 262 240 232 L240 148 C240 128 118 140 118 127" fill="none" stroke="var(--b2)" stroke-width="3" stroke-linecap="round"/>
+          <!-- branch: business (ongoing) -->
+          <path d="M118 92 C118 78 240 84 240 64" fill="none" stroke="var(--b1)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M240 64 L240 22" fill="none" stroke="var(--b1)" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 6"/>
+          <!-- main line -->
+          <path d="M118 418 L118 43" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round"/>
+
+          <text class="g-branch" x="252" y="200" fill="var(--b2)">Горы</text>
+          <text class="g-branch" x="252" y="40" fill="var(--b1)">Своё дело</text>
+
+          <!-- main nodes, labels on the left -->
+          <g>
+            <circle cx="118" cy="400" r="7" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+            <text class="g-text" x="98" y="398" text-anchor="end">Выпускной</text><text class="g-year" x="98" y="414" text-anchor="end">2009 · июнь</text>
+            <circle cx="118" cy="295" r="7" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+            <text class="g-text" x="98" y="293" text-anchor="end">Москва</text><text class="g-year" x="98" y="309" text-anchor="end">2014</text>
+            <circle cx="118" cy="190" r="7" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+            <text class="g-text" x="98" y="188" text-anchor="end">Свадьба</text><text class="g-year" x="98" y="204" text-anchor="end">2019 · 14 сент.</text>
+            <circle cx="118" cy="106" r="7" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+            <text class="g-text" x="98" y="104" text-anchor="end">Родилась Лиза</text><text class="g-year" x="98" y="120" text-anchor="end">2023 · 2 марта</text>
+            <circle class="pulse" cx="118" cy="43" r="7" fill="var(--accent)"/>
+            <circle cx="118" cy="43" r="7" fill="var(--accent)"/>
+            <text class="g-text" x="98" y="41" text-anchor="end">Сегодня</text><text class="g-year" x="98" y="57" text-anchor="end">2026</text>
+          </g>
+          <!-- branch nodes -->
+          <g>
+            <circle cx="240" cy="232" r="6" fill="var(--surface)" stroke="var(--b2)" stroke-width="3"/>
+            <text class="g-text" x="256" y="230">Эльбрус</text><text class="g-year" x="256" y="246">2017 · август</text>
+            <circle cx="240" cy="148" r="6" fill="var(--surface)" stroke="var(--b2)" stroke-width="3"/>
+            <text class="g-text" x="256" y="146">Алтай</text><text class="g-year" x="256" y="162">≈ 2021</text>
+            <circle cx="240" cy="64" r="6" fill="var(--surface)" stroke="var(--b1)" stroke-width="3"/>
+            <text class="g-text" x="256" y="62">Кофейня</text><text class="g-year" x="256" y="78">2025 · май</text>
+          </g>
+        </svg>
+        <figcaption class="graph-cap"><span>Главная линия и ветки: так Хроника показывает жизнь</span><span>Пример</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- SCENES -->
+  <section id="why" style="padding-top:32px">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Зачем</span>
+        <h2>Самое важное теряется тише всего</h2>
+      </div>
+      <div class="scenes">
+
+        <article class="scene">
+          <div class="scene-text">
+            <span class="scene-who" style="color:var(--b2)">Твоя жизнь</span>
+            <h3>Тысячи фото в телефоне. И ни одного не найти, когда нужно</h3>
+            <p>Лучшие годы лежат в галерее между скриншотами и фото чеков. Ты точно помнишь тот вечер на кухне, когда все смеялись до слёз. Но не помнишь, какой это был год.</p>
+            <p class="how" style="color:var(--ink)"><span style="color:var(--b2)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>Хроника разложит всё по годам и людям. Напиши «где мы смеёмся на кухне», и тот вечер найдётся за секунду.</span></p>
+          </div>
+          <div class="scene-art" aria-hidden="true">
+            <div class="gal-count"><b>23 418</b><span>фото в галерее</span></div>
+            <div class="gal"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="found"><div class="thumb" style="background:linear-gradient(160deg,#F6C88F,#D9774F)"></div><div><b>Кухня у Саши, все смеются</b><span>2019 · ноябрь · Саша, Аня, Дима</span></div></div>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-text">
+            <span class="scene-who" style="color:var(--b1)">Твои дети</span>
+            <h3>Ты думаешь, что запомнишь, как он говорил «пасибо». Не запомнишь</h3>
+            <p>Первое слово, первый шаг, смешные вопросы перед сном. Дети вырастают быстрее, чем успеваешь это заметить, а память стирает детали первыми.</p>
+            <p class="how"><span style="color:var(--b1)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>Отправь голосовое боту за десять секунд. А в восемнадцать подари ребёнку книгу о том, каким он был.</span></p>
+          </div>
+          <div class="scene-art" aria-hidden="true">
+            <div class="player"><div class="play" style="background:var(--b1)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div><div class="wave" aria-hidden="true"><span style="height:6px"></span><span style="height:12px"></span><span style="height:18px"></span><span style="height:9px"></span><span style="height:15px"></span><span style="height:22px"></span><span style="height:11px"></span><span style="height:7px"></span><span style="height:14px"></span><span style="height:19px"></span><span style="height:8px"></span><span style="height:12px"></span><span style="height:5px"></span><span style="height:10px"></span><span style="height:16px"></span><span style="height:20px"></span></div><small>0:07</small></div>
+            <p class="transcript">«Мама, а луна за нами едет? Пасибо, что взяла меня с собой»<span>Лиза, 2 года и 3 месяца · 2025 · по дороге с дачи</span></p>
+          </div>
+        </article>
+
+        <article class="scene">
+          <div class="scene-text">
+            <span class="scene-who" style="color:var(--accent)">Твои родители</span>
+            <h3>Однажды ты захочешь снова услышать мамин голос</h3>
+            <p>И спросить, как она познакомилась с папой, что пела бабушка и почему в семье так любят абрикосы. Пока родители рядом, на это нужно пять минут и одно голосовое.</p>
+            <p class="how"><span style="color:var(--accent)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span><span>Хроника расшифрует рассказ, поставит его на нужный год и сохранит рядом со старыми фото. Её голосом.</span></p>
+          </div>
+          <div class="scene-art" aria-hidden="true">
+            <div class="player"><div class="play" style="background:var(--accent)"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div><div class="wave" aria-hidden="true"><span style="height:6px"></span><span style="height:12px"></span><span style="height:18px"></span><span style="height:9px"></span><span style="height:15px"></span><span style="height:22px"></span><span style="height:11px"></span><span style="height:7px"></span><span style="height:14px"></span><span style="height:19px"></span><span style="height:8px"></span><span style="height:12px"></span><span style="height:5px"></span><span style="height:10px"></span><span style="height:16px"></span><span style="height:20px"></span><span style="height:9px"></span><span style="height:13px"></span><span style="height:6px"></span><span style="height:11px"></span><span style="height:17px"></span><span style="height:8px"></span></div><small>4:12</small></div>
+            <p class="transcript">«Летом нас отправляли к бабушке в Пенджикент. Абрикосы мы сушили прямо на крыше, а вечером она пела нам…»<span>Мама о лете 1978 года · записано в 2026</span></p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW: ways in -->
+  <section id="how">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Как это работает</span>
+        <h2>Собирать хронику проще, чем вести дневник</h2>
+        <p>Не нужно ничего заполнять. Присылай как есть, Хроника сама разберёт, когда и где это было.</p>
+      </div>
+      <div class="ways">
+        <div class="way">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><circle cx="9" cy="11" r="2"/><path d="m21 16-5-5-8 8"/></svg></div>
+          <h3>Загрузи фото и видео</h3>
+          <p>Дату и место Хроника возьмёт из самих снимков и разложит их по дням. Можно сразу сотню, можно архив за десять лет.</p>
+        </div>
+        <div class="way">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+          <h3>Скажи голосом</h3>
+          <p>«Позавчера ходили в кино с мамой». Хроника распознает речь, поставит дату и людей и сохранит запись вместе с голосом.</p>
+        </div>
+        <div class="way">
+          <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg></div>
+          <h3>Перенеси Instagram</h3>
+          <p>Скачай архив своего аккаунта и загрузи его целиком. Посты и сторис станут моментами с датами, подписями и местами.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TELEGRAM -->
+  <section style="padding-top:0">
+    <div class="wrap split">
+      <div>
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">Telegram-бот</span>
+          <h2>Хроника в кармане, там же, где ты переписываешься</h2>
+          <p>Отправь боту фото, голосовое или кружок, и это станет моментом. Спроси, и он найдёт.</p>
+        </div>
+        <div class="points">
+          <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><p><b>Сохраняет из обычных сообщений</b><span>Альбом фото и подпись «поход на Эльбрус, 2017» превращаются в один момент.</span></p></div>
+          <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><p><b>Отвечает на вопросы о твоей жизни</b><span>«Сколько раз я был в Казани?» или «пришли фото с отпуска в Сочи».</span></p></div>
+          <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><p><b>Собирает коллажи и ролики</b><span>«Сделай коллаж из лучших фото лета» и через минуту он в чате.</span></p></div>
+        </div>
+      </div>
+      <div class="chat" aria-label="Пример переписки с ботом Хроники">
+        <div class="chat-head"><i>Х</i><div>Хроника<small>бот</small></div></div>
+        <div class="msg me">
+          <div class="voice">
+            <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor" opacity=".25"/><path d="M10 8v8l6-4z" fill="currentColor"/></svg>
+            <div class="wave" aria-hidden="true"><span style="height:6px"></span><span style="height:12px"></span><span style="height:18px"></span><span style="height:9px"></span><span style="height:15px"></span><span style="height:20px"></span><span style="height:11px"></span><span style="height:7px"></span><span style="height:14px"></span><span style="height:17px"></span><span style="height:8px"></span><span style="height:12px"></span><span style="height:5px"></span></div>
+            <span>0:09</span>
+          </div>
+          <small>«Позавчера ходили с мамой в кино, потом гуляли по Патрикам»</small>
+        </div>
+        <div class="msg bot">Сохранил в хронику.
+          <div class="saved"><b>Кино с мамой и Патрики</b><span>9 октября 2026 · Мама · Москва · голосовое</span></div>
+        </div>
+        <div class="msg me">сколько раз я был в Казани?</div>
+        <div class="msg bot">Три раза: в 2016, 2021 и прошлым летом. Прислать фото?
+          <div class="chips" style="margin-top:8px"><span class="chip">Да, все</span><span class="chip">Только 2021</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIEWS -->
+  <section style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Четыре взгляда</span>
+        <h2>Одна жизнь, четыре способа её увидеть</h2>
+      </div>
+      <div class="views">
+        <div class="view">
+          <div class="pic"><svg viewBox="0 0 160 100" aria-hidden="true"><path d="M20 90 L20 10" stroke="var(--accent)" stroke-width="3"/><path d="M20 70 C20 60 80 64 80 52 L80 36 C80 26 20 30 20 24" fill="none" stroke="var(--b2)" stroke-width="2.5"/><path d="M20 20 C20 12 120 18 120 8" fill="none" stroke="var(--b1)" stroke-width="2.5"/><g fill="var(--surface)" stroke-width="2.5"><circle cx="20" cy="84" r="5" stroke="var(--accent)"/><circle cx="20" cy="46" r="5" stroke="var(--accent)"/><circle cx="80" cy="44" r="4.5" stroke="var(--b2)"/><circle cx="120" cy="8" r="4.5" stroke="var(--b1)"/></g></svg></div>
+          <div class="txt"><h3>Граф</h3><p>Главная линия и ветки: учёба, путешествия, работа, дети. Видно, как одно растёт из другого.</p></div>
+        </div>
+        <div class="view">
+          <div class="pic"><svg viewBox="0 0 160 100" aria-hidden="true"><g fill="var(--surface)" stroke="var(--line)"><rect x="8" y="8" width="144" height="26" rx="6"/><rect x="8" y="40" width="144" height="26" rx="6"/><rect x="8" y="72" width="144" height="26" rx="6"/></g><g><rect x="13" y="13" width="16" height="16" rx="4" fill="var(--b2)"/><rect x="13" y="45" width="16" height="16" rx="4" fill="var(--accent)"/><rect x="13" y="77" width="16" height="16" rx="4" fill="var(--b1)"/></g><g fill="var(--faint)"><rect x="36" y="15" width="70" height="5" rx="2.5"/><rect x="36" y="47" width="90" height="5" rx="2.5"/><rect x="36" y="79" width="58" height="5" rx="2.5"/></g><g fill="var(--line)"><rect x="36" y="24" width="40" height="4" rx="2"/><rect x="36" y="56" width="50" height="4" rx="2"/><rect x="36" y="88" width="30" height="4" rx="2"/></g></svg></div>
+          <div class="txt"><h3>Лента</h3><p>Моменты по годам, от свежих к давним. «В этот день» напомнит, что было год и десять лет назад.</p></div>
+        </div>
+        <div class="view">
+          <div class="pic"><svg viewBox="0 0 160 100" aria-hidden="true"><rect x="4" y="4" width="152" height="92" rx="8" fill="var(--soft)"/><path d="M14 70 C30 40 50 60 66 34 S110 28 120 46 S146 60 150 30 L150 92 L14 92Z" fill="var(--surface)"/><g><circle cx="48" cy="58" r="5" fill="var(--accent)"/><circle cx="98" cy="38" r="5" fill="var(--b1)"/><circle cx="128" cy="56" r="5" fill="var(--b2)"/><circle cx="72" cy="74" r="5" fill="var(--accent)"/></g></svg></div>
+          <div class="txt"><h3>Карта</h3><p>Все места, где ты был. Нажми на город и увидишь, что там происходило.</p></div>
+        </div>
+        <div class="view">
+          <div class="pic"><svg viewBox="0 0 160 100" aria-hidden="true"><g id="cal"></g></svg></div>
+          <div class="txt"><h3>Календарь</h3><p>Год одним взглядом: какие месяцы были самыми насыщенными.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCH -->
+  <section style="padding-top:24px">
+    <div class="wrap split">
+      <div class="search" aria-label="Пример поиска по смыслу">
+        <div class="sbox"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span>где мы с папой у моря<span class="caret" aria-hidden="true"></span></span></div>
+        <div class="res">
+          <div class="res-item"><div class="thumb" style="background:linear-gradient(160deg,#9CC3E6,#2B54D6 70%,#E9D7A8 71%)"></div><div><b>Анапа, первый раз на море</b><span>≈ 1999 · Папа · Анапа</span></div></div>
+          <div class="res-item"><div class="thumb" style="background:linear-gradient(170deg,#F2C48A,#E58A6A 45%,#3E6DB5 46%)"></div><div><b>Закат в Сочи</b><span>2018 · июль · Папа, Мама · Сочи</span></div></div>
+          <div class="res-item"><div class="thumb" style="background:linear-gradient(180deg,#BFD8E8 40%,#5C8FB8 41%,#D9C49A 80%)"></div><div><b>Рыбалка на Иссык-Куле</b><span>2022 · Папа · Чолпон-Ата</span></div></div>
+        </div>
+        <span class="why">Найдено по смыслу: «у моря» → пляж, берег, закат, рыбалка</span>
+      </div>
+      <div>
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">Поиск</span>
+          <h2>Найдёт, даже если не помнишь, как подписал</h2>
+          <p>Ищи так, как вспоминаешь: «зимой у бабушки», «первый день в школе», «где Лиза смеётся». Хроника понимает смысл, людей на фото и места.</p>
+        </div>
+        <div class="points">
+          <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><p><b>Не помнишь точную дату?</b><span>Хватит года или «примерно 1999». Момент встанет на линию, уточнить можно потом.</span></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEGACY -->
+  <section class="legacy">
+    <div class="wrap">
+      <span class="eyebrow">Для тех, кто будет потом</span>
+      <p class="quote" style="margin-top:14px">Однажды дети спросят, каким ты был в их возрасте. <span>Пусть ответ будет у тебя в руках.</span></p>
+      <div class="leg-grid">
+        <div class="leg">
+          <div class="book" aria-hidden="true"></div>
+          <h3>Книга твоей жизни</h3>
+          <p>Хроника соберёт главы по годам и веткам, с фото и подписями. Скачай PDF или распечатай и подари.</p>
+        </div>
+        <div class="leg">
+          <div class="qcard"><small>Вопрос недели</small>Какой запах напоминает тебе детство?</div>
+          <h3>Вопрос недели</h3>
+          <p>Раз в неделю Хроника задаёт один вопрос о твоей жизни. Ответь голосом, и через годы у семьи будут твои истории твоим голосом.</p>
+        </div>
+        <div class="leg">
+          <div class="files" aria-hidden="true"><span>фото</span><span>видео</span><span>голос</span><span>тексты</span><span>ZIP</span></div>
+          <h3>Твоё навсегда</h3>
+          <p>Скачай всё одним архивом в любой момент: оригиналы файлов и все записи. Хроника не держит твою жизнь в заложниках.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section id="privacy">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Приватность</span>
+        <h2>Это твоя жизнь. Видишь её только ты</h2>
+        <p>Мы храним самое личное, поэтому правила простые и проверяемые.</p>
+      </div>
+      <div class="priv">
+        <div class="pv"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><p><b>Никто не листает твою хронику</b><span>В сервисе нет экранов, где сотрудники могли бы смотреть чужие фото и записи. Файлы хранятся зашифрованными.</span></p></div>
+        <div class="pv"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg><p><b>Голос не уходит на сторону</b><span>Речь в голосовых и видео распознаётся на нашем сервере. Звук никуда не отправляется.</span></p></div>
+        <div class="pv"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg><p><b>ИИ только с твоего согласия</b><span>Умный поиск и описания включаются отдельной галочкой. Данные не используются для обучения моделей. Без ИИ всё остальное работает.</span></p></div>
+        <div class="pv"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg><p><b>Без рекламы и слежки</b><span>Никакой рекламы, сторонней аналитики и трекеров. Мы зарабатываем на подписке, а не на твоих данных.</span></p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section style="padding-top:24px">
+    <div class="wrap">
+      <div class="sec-head"><span class="eyebrow">Вопросы</span><h2>Частые вопросы</h2></div>
+      <div class="faq" id="faq"></div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final" style="padding-top:24px">
+    <div class="wrap">
+      <div class="box">
+        <div>
+          <h2>Будь среди первых</h2>
+          <p class="sub">Мы откроем бету для небольшой группы. Подпишись на канал, там мы позовём первых участников и покажем, как всё устроено.</p>
+        </div>
+        <div class="final-links">
+          <a class="btn" href="https://t.me/" target="_blank" rel="noopener" data-link="general">Следить за запуском в Telegram <span>→</span></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-row">
+      <a class="logo" href="#top" style="font-size:16px"><svg width="22" height="22" viewBox="0 0 28 28" aria-hidden="true"><path d="M4 22 C10 22 10 6 16 6 S 22 14 24 14" fill="none" stroke="var(--accent)" stroke-width="2.6" stroke-linecap="round"/><circle cx="4" cy="22" r="3" fill="var(--accent)"/><circle cx="16" cy="6" r="3" fill="var(--accent)"/><circle cx="24" cy="14" r="3" fill="var(--b1)"/></svg>Хроника</a>
+      <div class="foot-links">
+        <a href="#privacy">Приватность</a>
+        <a href="#choose">Telegram-канал</a>
+      </div>
+    </div>
+    <p>Сайт не собирает персональные данные и не использует cookie, аналитику и трекеры. © 2026 Хроника</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* Two Telegram invite links: the hero button and the bottom button. Telegram counts joins per link. Replace the placeholders. */
+  /* ===== Settings: put the real links here ===== */
+  var LINKS={
+    hero:'https://t.me/chronicle_life_app',     // Telegram link for the first screen and the header button
+    general:'https://t.me/chronicle_life_app',  // Telegram link for the bottom block
+    app:''       // address of the app sign-in page, e.g. https://app.example.ru/login — empty hides «Войти»
+  };
+  /* ============================================== */
+  // A link without an address is hidden; the header «Следить» button follows the first-screen link.
+  document.querySelectorAll('[data-link]').forEach(function(a){var u=LINKS[a.dataset.link];if(u){a.href=u;a.hidden=false;}else{a.hidden=true;}});
+  var head=document.querySelector('nav.links a.btn-primary'); if(head){ if(LINKS.hero){head.href=LINKS.hero;head.target='_blank';head.rel='noopener';} }
+
+  /* calendar heatmap in the "views" card */
+  var g=document.getElementById('cal'), ns='http://www.w3.org/2000/svg';
+  var lv=[0,1,0,2,1,0,3,1,0,0,2,1,1,0,2,3,3,1,0,1,0,0,1,2,0,1,3,2,1,0,0,2,1,0,1,1,2,3,2,0,1,0,0,1,2,1,0,0];
+  var fills=['var(--surface)','var(--soft)','color-mix(in srgb,var(--accent) 55%,var(--soft))','var(--accent)'];
+  for(var i=0;i<48;i++){var r=document.createElementNS(ns,'rect');r.setAttribute('x',8+(i%12)*12.3);r.setAttribute('y',14+Math.floor(i/12)*19);r.setAttribute('width',10);r.setAttribute('height',15);r.setAttribute('rx',2.5);r.setAttribute('fill',fills[lv[i]]);r.setAttribute('stroke','var(--line)');r.setAttribute('stroke-width',lv[i]?0:1);g.appendChild(r);}
+
+  /* FAQ */
+  var faq=[
+    ['Когда запуск?','Сейчас Хроника в закрытой разработке. Сначала откроем бету для небольшой группы, позовём в неё через Telegram-канал.'],
+    ['Сколько это стоит?','Бета бесплатная. После запуска будет бесплатный тариф и подписка с расширенными возможностями. О ценах напишем заранее, до того как что-то станет платным.'],
+    ['Что будет с моими фото, если сервис закроется?','Ты в любой момент можешь скачать всё одним архивом: оригиналы фото и видео, голосовые и все записи в открытом формате. Если мы когда-нибудь решим закрыться, предупредим заранее и оставим время, чтобы всё забрать.'],
+    ['Обязательно пользоваться Telegram?','Нет. Всё можно делать на сайте. Бот нужен тем, кому удобнее сохранять моменты прямо из переписки.'],
+    ['Можно без ИИ?','Да. Умный поиск, описания фото и разбор голосовых включаются только после отдельного согласия. Без них остаются лента, граф, карта, календарь, обычный поиск, книга и экспорт.'],
+    ['Можно вести хронику ребёнка или родителей?','Да. Хроника не обязана быть только о тебе: можно собирать историю детей с рождения или записывать рассказы родителей.'],
+    ['Как удалить всё?','В настройках: «Удалить аккаунт». Мы удалим все файлы и записи без возможности восстановления. Перед этим предложим скачать архив.']
+  ];
+  var fq=document.getElementById('faq');
+  faq.forEach(function(x,i){
+    var d=document.createElement('div');d.className='q';
+    d.innerHTML='<button type="button" aria-expanded="false" aria-controls="fa'+i+'" id="fq'+i+'"><span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button><div class="a" id="fa'+i+'" role="region" aria-labelledby="fq'+i+'" hidden></div>';
+    d.querySelector('span').textContent=x[0];d.querySelector('.a').textContent=x[1];
+    d.querySelector('button').addEventListener('click',function(){var o=this.getAttribute('aria-expanded')==='true';this.setAttribute('aria-expanded',String(!o));d.querySelector('.a').hidden=o;});
+    fq.appendChild(d);
+  });
+})();
+</script>
+
+</body>
+</html>
